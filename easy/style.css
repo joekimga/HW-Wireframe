@@ -8,11 +8,15 @@ body {
   line-height: 32px;
   color: #333;
   width: 960px;
+  /*padding-left: 25px;*/
+  /*margin-left: 25px;*/
+  margin: auto;
 }
 
 header {
   padding: 20px;
   margin-bottom: 20px;
+  margin-top: 20px;
   color: #333;
   background: #ccc;
   text-align: center;
@@ -34,13 +38,28 @@ section {
 }
 
 
+article {}
+
+#article {
+  color: white;
+  background-color: #777;
+
+}
+
 .float {
 float: left;
 }
 
 
 aside {
-float: left;
+  /*padding: 20px;*/
+  margin-bottom: 20px;
+  /*margin-top: 20px;*/
+  background: #ccc;
+  width: 425px;
+  height: 249px;
+  float: right;
+  padding-top: 20px;
 
 }
 
